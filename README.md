@@ -1,2 +1,3 @@
-# Tributo-Charlie-Brown
- Tributo feito, para treinar flexbox.
+# Tributo Chorão - CBJR.
+Exercícios do curso B7Web, para treinar flexbox.
+
