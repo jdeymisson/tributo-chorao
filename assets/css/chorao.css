@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz';
+}
+#banner_chorao {
+    background-image: url(../images/chorao-back2.jpg);
+    height: 920px;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height:130px;
+}
+.container {
+    display: flex; 
+    width: 1200px;
+    justify-content: flex-start; 
+    height: auto;
+}
+.menu{
+    display: flex; 
+    align-items: center;
+    text-transform: uppercase;
+}
+header .menu ul, header .menu li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+ul li a {
+    color:#fff;
+    text-decoration: none;
+    display:block;
+    padding: 6px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #fff;
+}
+ul li a:hover {
+    transition: linear 0.6s all;
+    background-color: #025960;
+    border-radius: 5px;
+}
+#text_banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.text_chorao {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.choraocolumn {
+    display: flex;
+    flex-direction: column;
+}
+.h1chorao {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.chorao_bar {
+    width: 220px;
+    height: 2px;
+    background-color:#fff;
+    margin-top: 5px;
+}
+.h2chorao {
+    margin-top: 14px;    
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.h3chorao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+#corpo_chorao {
+    background: black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.body_chorao {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bio_text {
+    display: flex;
+    flex: 1;
+}
+.biocolumn {
+    display: flex;
+    flex-direction: column;
+}
+.bio_title ,.disc_title {
+    font-size: 35px;
+    color:#fff;
+    font-weight: bold;
+    margin-top:30px ;
+    text-transform: uppercase;
+}
+.bio_bar {
+    width: 120px;
+    height: 2px;
+    background-color: #025960;
+    margin-top: 5px;
+}
+.bio_conteudo {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.bio_conteudo p {
+    text-align: left;
+}
+.bio_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.bio_img img {
+    margin-top: 160px;
+    max-height: 560px;
+    background-position: center;
+    background-size: cover;
+}
+.body_column {
+    display: flex;
+    flex-direction: column;
+}
+#corpo_disc {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    background:#000;
+}
+.disc_column {
+    display: flex;
+    flex-direction: column;
+}
+.widget_column {
+    display: flex;
+    flex-direction: column;
+}
+.widget_title {
+    display: flex;
+}
+.disc_bar {
+    width: 150px;
+    height: 2px;
+    background-color:#025960;;
+    margin-top: 5px;
+}
+.corpo_disc {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloco {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.bloco_column {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ano_lancamento {
+    color: #fff;
+    margin-top: 10px;
+}
+.bloco img {
+    max-width: 160px;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 3px solid #025960;
+ 
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    height: auto;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer_bar {
+    width: 100%;
+    height: 1px;
+    background-color: #025960;
+    margin-top: 30px;
+}
+.dev_by {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.facebook img, .instagram img, .twitter img{
+    width: 30px;
+    margin-right: 10px;
+}
